@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="shortcut icon" href="./image/icons8.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="quiz">
+            <div class="heading">
+                <p class="title">Quiz</p>
+                <p class="stitle">Youth Quiz Day</p>
+            </div> 
+            <div class="result hide">
+                <p></p>
+                <p class="reload">
+                    <button onclick="window.location.reload()">Try Again?</button>
+                </p>
+            </div>
+            <form class="quiz-form">
+                <div class="que">
+                    <p>1. Who is the author of "To Kill a Mockingbird"?</p>
+                    <div class="option">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label for="">Harper Lee</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="B">
+                        <label for="">J.K. Rowling</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="C">
+                        <label for="">Charles Dickens</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="D">
+                        <label for="">F. Scott Fitzgerald</label>
+                    </div>
+                </div>
+                <div class="que">
+                    <p>2. What is the capital of France?</p>
+                    <div class="option">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label for="">London</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="B">
+                        <label for="">Paris</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="C">
+                        <label for="">Rome</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="D">
+                        <label for="">Berlin</label>
+                    </div>
+                </div>
+                <div class="que">
+                    <p>3. What is the chemical symbol for water?</p>
+                    <div class="option">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label for="">Wa</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="B">
+                        <label for="">Wo</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="C">
+                        <label for="">H2O</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="D">
+                        <label for="">He</label>
+                    </div>
+                </div>
+                <div class="que">
+                    <p>4. Which planet is known as the "Red Planet"?</p>
+                    <div class="option">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label for="">Jupiter</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="B">
+                        <label for="">Mars</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="C">
+                        <label for="">Venus</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="D">
+                        <label for="">Saturn</label>
+                    </div>
+                </div>
+                <div class="que">
+                    <p>5. Who painted the Mona Lisa?</p>
+                    <div class="option">
+                        <input type="radio" name="q5" value="A" checked>
+                        <label for="">Vincent van Gogh</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="B">
+                        <label for="">Leonardo da Vinci</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="C">
+                        <label for="">Pablo Picasso</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="D">
+                        <label for="">Michelangelo</label>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
